@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.377ebe98.css",
+    "main.js": "/portfolio/static/js/main.0ea9517e.js",
+    "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
+    "static/media/fanime_pic2.png": "/portfolio/static/media/fanime_pic2.9473aaf8f16157c719fb.png",
+    "static/media/Leverett-Resume.pdf": "/portfolio/static/media/Leverett-Resume.43874a10742b033af64e.pdf",
+    "static/media/hotreloadstudios.png": "/portfolio/static/media/hotreloadstudios.72e8f6197edc574c5783.png",
+    "static/media/projeckts_pic2.jpeg": "/portfolio/static/media/projeckts_pic2.7370cfcdc9b53b9a63cd.jpeg",
+    "static/media/Linkzilla_pic2.png": "/portfolio/static/media/Linkzilla_pic2.5bd2ceaf0de23f226545.png",
+    "index.html": "/portfolio/index.html",
+    "main.377ebe98.css.map": "/portfolio/static/css/main.377ebe98.css.map",
+    "main.0ea9517e.js.map": "/portfolio/static/js/main.0ea9517e.js.map",
+    "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.377ebe98.css",
+    "static/js/main.0ea9517e.js"
+  ]
+}
