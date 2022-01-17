@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.377ebe98.css",
-    "main.js": "/static/js/main.e456ab7f.js",
+    "main.css": "/static/css/main.42d5d1fc.css",
+    "main.js": "/static/js/main.fb104493.js",
     "static/media/fanime_pic2.png": "/static/media/fanime_pic2.9473aaf8f16157c719fb.png",
     "static/media/Leverett-Resume.pdf": "/static/media/Leverett-Resume.43874a10742b033af64e.pdf",
     "static/media/hotreloadstudios.png": "/static/media/hotreloadstudios.72e8f6197edc574c5783.png",
     "static/media/projeckts_pic2.jpeg": "/static/media/projeckts_pic2.7370cfcdc9b53b9a63cd.jpeg",
     "static/media/Linkzilla_pic2.png": "/static/media/Linkzilla_pic2.5bd2ceaf0de23f226545.png",
     "index.html": "/index.html",
-    "main.377ebe98.css.map": "/static/css/main.377ebe98.css.map",
-    "main.e456ab7f.js.map": "/static/js/main.e456ab7f.js.map"
+    "main.42d5d1fc.css.map": "/static/css/main.42d5d1fc.css.map",
+    "main.fb104493.js.map": "/static/js/main.fb104493.js.map"
   },
   "entrypoints": [
-    "static/css/main.377ebe98.css",
-    "static/js/main.e456ab7f.js"
+    "static/css/main.42d5d1fc.css",
+    "static/js/main.fb104493.js"
   ]
 }
