@@ -11,6 +11,7 @@ function App() {
 
     useEffect(()=>{
        document.title = 'Tyrail Leverett';
+
     },[])
 
     const aboutRef = useRef(null);

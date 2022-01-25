@@ -3,6 +3,7 @@ import ProjecktsPic from "../img/projeckts_pic2.jpeg";
 import FanimePic from "../img/fanime_pic2.png";
 import LinkzillaPic from "../img/Linkzilla_pic2.png";
 import HotReloadStudiosPic from "../img/hotreloadstudios.png";
+import NotesPic from "../img/Notes_Pic.png";
 
 const projects = [
   {
@@ -28,6 +29,17 @@ const projects = [
     reverse: true,
   },
   {
+    title: "Notes",
+    tags: ["ReactJS", "TailwindCSS", "Supabase"],
+    description:
+      "Google Keep clone built using React, Tailwind CSS, and Supabase for the backend.",
+    notes: false,
+    externalLink: "https://tlevy7341.github.io/login",
+    githubLink: "https://github.com/tlevy7341/notes",
+    image: NotesPic,
+    reverse: false,
+  },
+  {
     title: "Fanime",
     tags: ["Flask", "ReactJS", "ChakraUI", "Jikan API"],
     description:
@@ -36,7 +48,7 @@ const projects = [
     externalLink: "https://fanime2.herokuapp.com/",
     githubLink: "https://github.com/tlevy7341/fanime",
     image: FanimePic,
-    reverse: false,
+    reverse: true,
   },
   {
     title: "Linkzilla",
@@ -47,7 +59,7 @@ const projects = [
     externalLink: "https://linkzilla2.herokuapp.com/",
     githubLink: "https://github.com/tlevy7341/linkzilla",
     image: LinkzillaPic,
-    reverse: true,
+    reverse: false,
   },
   {
     title: "Hot Reload Studios",
@@ -57,7 +69,7 @@ const projects = [
     externalLink: "https://hotreloadstudios.com/",
     githubLink: "https://github.com/tlevy7341/hotreloadstudios",
     image: HotReloadStudiosPic,
-    reverse: false,
+    reverse: true,
   },
 ];
 
