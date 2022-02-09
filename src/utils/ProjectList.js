@@ -1,7 +1,6 @@
 import ToodozePic from "../img/todooze_pic2.png";
 import ProjecktsPic from "../img/projeckts_pic2.jpeg";
 import FanimePic from "../img/fanime_pic2.png";
-import LinkzillaPic from "../img/Linkzilla_pic2.png";
 import HotReloadStudiosPic from "../img/hotreloadstudios.png";
 import NotesPic from "../img/Notes_Pic.png";
 
