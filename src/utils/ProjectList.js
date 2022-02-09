@@ -51,17 +51,6 @@ const projects = [
     reverse: true,
   },
   {
-    title: "Linkzilla",
-    tags: ["Flask", "Bulma CSS", "Bitly API"],
-    description:
-      " Website to shorten URL's. URL's are shortened by using the Bitly API.",
-    notes: true,
-    externalLink: "https://linkzilla2.herokuapp.com/",
-    githubLink: "https://github.com/tlevy7341/linkzilla",
-    image: LinkzillaPic,
-    reverse: false,
-  },
-  {
     title: "Hot Reload Studios",
     tags: ["ReactJS", "TailwindCSS"],
     description: "Website to showcase the apps I built using Flutter. API.",
@@ -69,7 +58,7 @@ const projects = [
     externalLink: "https://hotreloadstudios.com/",
     githubLink: "https://github.com/tlevy7341/hotreloadstudios",
     image: HotReloadStudiosPic,
-    reverse: true,
+    reverse: false,
   },
 ];
 
