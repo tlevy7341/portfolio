@@ -30,7 +30,7 @@ const projects = [
   {
     title: "Notes",
     tags: ["NextJS", "TailwindCSS", "Prisma", "PostgreSQL"],
-    description: `Google Keep clone built using NextJS, Tailwind CSS, Prisma for the ORM, and PostgreSQL for the database.
+    description: `Google Keep clone for taking simple notes which was built using NextJS, Tailwind CSS, Prisma for the ORM, and PostgreSQL for the database.
        Libraries that were used to complete this project include NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.`,
     notes: false,
     externalLink: "https://next-notes-gamma.vercel.app",
