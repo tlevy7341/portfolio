@@ -29,11 +29,11 @@ const projects = [
   },
   {
     title: "Notes",
-    tags: ["ReactJS", "TailwindCSS", "Supabase"],
-    description:
-      "Google Keep clone built using React, Tailwind CSS, and Supabase for the backend.",
+    tags: ["NextJS", "TailwindCSS", "Prisma", "PostgreSQL"],
+    description: `Google Keep clone built using NextJS, Tailwind CSS, Prisma for the ORM, and PostgreSQL for the database.
+       Libraries that were used to complete this project include NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.`,
     notes: false,
-    externalLink: "https://tlevy7341.github.io/login",
+    externalLink: "https://next-notes-gamma.vercel.app",
     githubLink: "https://github.com/tlevy7341/notes",
     image: NotesPic,
     reverse: false,
@@ -52,7 +52,7 @@ const projects = [
   {
     title: "Hot Reload Studios",
     tags: ["ReactJS", "TailwindCSS"],
-    description: "Website to showcase the apps I built using Flutter. API.",
+    description: "Website to showcase the apps I have built using Flutter.",
     notes: false,
     externalLink: "https://hotreloadstudios.com/",
     githubLink: "https://github.com/tlevy7341/hotreloadstudios",
