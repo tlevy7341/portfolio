@@ -34,7 +34,7 @@ const projects = [
        Libraries that were used to complete this project include NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.`,
     notes: false,
     externalLink: "https://next-notes-gamma.vercel.app",
-    githubLink: "https://github.com/tlevy7341/notes",
+    githubLink: "https://github.com/tlevy7341/next-notes",
     image: NotesPic,
     reverse: false,
   },
