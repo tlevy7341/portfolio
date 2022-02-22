@@ -1,5 +1,5 @@
 import ToodozePic from "../img/todooze_pic2.png";
-import ProjecktsPic from "../img/projeckts_pic2.jpeg";
+import HadWorkPic from "../img/HadWork_pic.png";
 import FanimePic from "../img/fanime_pic2.png";
 import HotReloadStudiosPic from "../img/hotreloadstudios.png";
 import NotesPic from "../img/Notes_Pic.png";
@@ -17,14 +17,14 @@ const projects = [
     reverse: false,
   },
   {
-    title: "Projeckts",
-    tags: ["Flask", "ReactJS", "ChakraUI", "MongoDB"],
+    title: "HadWork",
+    tags: ["NextJS", "ChakraUI", "Supabase"],
     description:
-      "Project management software similar to Trello. Utilises a signup/login form that salts the password prior to storing in the database.",
+      "Kanban Project management Website which was built using NextJS. Libraries that were used to complete this project include Supabase for the DB, ChakraUI for the styling, NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.",
     notes: true,
-    externalLink: "https://projeckts.herokuapp.com/",
-    githubLink: "https://github.com/tlevy7341/projeckts",
-    image: ProjecktsPic,
+    externalLink: "https://hadwork.vercel.app/",
+    githubLink: "https://github.com/tlevy7341/hadwork",
+    image: HadWorkPic,
     reverse: true,
   },
   {
