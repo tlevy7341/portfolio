@@ -21,7 +21,7 @@ const projects = [
     tags: ["NextJS", "ChakraUI", "Supabase"],
     description:
       "Kanban Project management Website which was built using NextJS. Libraries that were used to complete this project include Supabase for the DB, ChakraUI for the styling, NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.",
-    notes: true,
+    notes: false,
     externalLink: "https://hadwork.vercel.app/",
     githubLink: "https://github.com/tlevy7341/hadwork",
     image: HadWorkPic,
