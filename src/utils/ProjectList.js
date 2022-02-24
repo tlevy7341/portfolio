@@ -18,9 +18,9 @@ const projects = [
   },
   {
     title: "HadWork",
-    tags: ["NextJS", "ChakraUI", "Supabase"],
+    tags: ["NextJS", "ChakraUI", "Supabase", "Typescript"],
     description:
-      "Kanban Project management Website which was built using NextJS. Libraries that were used to complete this project include Supabase for the DB, ChakraUI for the styling, NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.",
+      "Kanban Project management Website which was built using NextJS. Libraries that were used to complete this project include Typescript, Supabase for the DB, ChakraUI for the styling, NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.",
     notes: false,
     externalLink: "https://hadwork.vercel.app/",
     githubLink: "https://github.com/tlevy7341/hadwork",
@@ -29,8 +29,8 @@ const projects = [
   },
   {
     title: "Notes",
-    tags: ["NextJS", "TailwindCSS", "Prisma", "PostgreSQL"],
-    description: `Google Keep clone for taking simple notes which was built using NextJS, Tailwind CSS, Prisma for the ORM, and PostgreSQL for the database.
+    tags: ["NextJS", "TailwindCSS", "Prisma", "PostgreSQL", "Typescript"],
+    description: `Google Keep clone for taking simple notes which was built using NextJS, Typescript, Tailwind CSS, Prisma for the ORM, and PostgreSQL for the database.
        Libraries that were used to complete this project include NextAuth for authentication, React Query for caching, React Hook Form, and Framer Motion for the animations.`,
     notes: false,
     externalLink: "https://next-notes-gamma.vercel.app",
