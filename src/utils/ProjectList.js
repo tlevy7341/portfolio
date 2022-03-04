@@ -7,7 +7,7 @@ import ToodozePic from "../img/todooze_pic2.png";
 const projects = [
   {
     title: "Todooze",
-    tags: ["Flask", "ReactJS", "ChakraUI", "PostgresSQL"],
+    tags: ["NodeJS", "ReactJS", "TailwindCSS", "MongoDB"],
     description:
       "Todo application built using ReactJS. Backend was built using NodeJS with Express, Mongodb for the database, and Mongoose for the ORM. Frontend libraries include TailwindCSS for the styles, and Redux Toolkit for state management.",
     notes: false,
