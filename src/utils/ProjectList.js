@@ -1,17 +1,17 @@
-import ToodozePic from "../img/todooze_pic2.png";
-import HadWorkPic from "../img/HadWork_pic.png";
 import FanimePic from "../img/fanime_pic2.png";
+import HadWorkPic from "../img/HadWork_pic.png";
 import HotReloadStudiosPic from "../img/hotreloadstudios.png";
 import NotesPic from "../img/Notes_Pic.png";
+import ToodozePic from "../img/todooze_pic2.png";
 
 const projects = [
   {
     title: "Todooze",
     tags: ["Flask", "ReactJS", "ChakraUI", "PostgresSQL"],
     description:
-      "A simple Todo application. I used SQLAlchemy as the ORM to interface with Postgres.",
-    notes: true,
-    externalLink: "https://todooze.herokuapp.com/",
+      "Todo application built using ReactJS. Backend was built using NodeJS with Express, Mongodb for the database, and Mongoose for the ORM. Frontend libraries include TailwindCSS for the styles, and Redux Toolkit for state management.",
+    notes: false,
+    externalLink: "https://todooze.vercel.app/",
     githubLink: "https://github.com/tlevy7341/todooze",
     image: ToodozePic,
     reverse: false,
