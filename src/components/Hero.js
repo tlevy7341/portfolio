@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-tsparticles";
-import ParticlesConfig from "../utils/ParticlesConfig";
 import "../App.css";
+import ParticlesConfig from "../utils/ParticlesConfig";
 
 const Hero = ({ myRefs }) => {
   const [aboutRef, skillsRef, projectsRef] = myRefs;
@@ -19,7 +19,7 @@ const Hero = ({ myRefs }) => {
           Hi, I'm <span className="text-sky-600">Tyrail.</span>
         </p>
         <p className="font-bold font-roboto text-2xl sm:text-6xl z-10">
-          I'm a Full Stack Developer.
+          I'm a Front-End Developer.
         </p>
         <div className="flex gap-4 items-center">
           <button
