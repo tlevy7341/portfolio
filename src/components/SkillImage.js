@@ -1,7 +1,7 @@
 import React from "react";
 
-const SkillImage = ({image}) => {
-  return <li className="hover:-translate-y-4 transition-all">{image}</li>;
+const SkillImage = ({ image }) => {
+  return <li className="transition-all hover:-translate-y-2">{image}</li>;
 };
 
 export default SkillImage;

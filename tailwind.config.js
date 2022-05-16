@@ -7,7 +7,7 @@ module.exports = {
         darkbg: "#121212",
       },
       fontFamily: {
-        roboto: ["Roboto"],
+        worksans: ["Work Sans", "sans-serif"],
       },
     },
   },

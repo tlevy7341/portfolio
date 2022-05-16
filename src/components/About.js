@@ -1,14 +1,14 @@
 import React from "react";
 import Pdf from "../img/Leverett-Resume.pdf";
 
-const About = ({ myRef }) => {
+const About = () => {
   return (
-    <div ref={myRef} className="bg-darkbg pb-10 text-white">
+    <div id="about_container" className="pb-10 text-white bg-darkbg">
       <div className="container mx-auto">
-        <h2 className="uppercase text-center mb-10 font-bold font-roboto text-4xl">
+        <h2 className="mb-10 text-2xl font-bold text-center lg:text-5xl font-worksans">
           About
         </h2>
-        <div className="flex  sm:mx-auto sm:w-1/2 flex-col gap-6">
+        <div className="flex flex-col gap-6 sm:mx-auto sm:w-1/2">
           <p className="px-5 sm:px-0">
             Hello! My name is Tyrail Leverett and I am a Help Desk Specialist
             turned into a Front-End Web Developer. I really enjoy creating
@@ -30,7 +30,7 @@ const About = ({ myRef }) => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <button className="text-white px-2 py-1 sm:px-4 sm:py-2 rounded hover:bg-sky-700 bg-sky-500">
+            <button className="px-2 py-1 text-white rounded sm:px-4 sm:py-2 hover:bg-sky-700 bg-sky-500">
               Resume
             </button>
           </a>

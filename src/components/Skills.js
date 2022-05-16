@@ -1,15 +1,15 @@
 import React from "react";
-import SkillSection from "./SkillSection";
 import skills from "../utils/MySkills";
+import SkillSection from "./SkillSection";
 
-const Skills = ({myRef}) => {
+const Skills = () => {
   return (
-    <div ref={myRef} className="bg-darkbg pb-6 sm:pb-16 text-white">
+    <div id="skills_container" className="pb-6 text-white bg-darkbg sm:pb-16">
       <div className="container mx-auto">
-        <h2 className="uppercase text-center mb-10 font-roboto  font-bold text-4xl">
+        <h2 className="mb-10 text-2xl font-bold text-center lg:text-5xl font-worksans">
           Skills
         </h2>
-        <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           {skills.map((skill) => {
             return <SkillSection key={skill.title} skill={skill} />;
           })}

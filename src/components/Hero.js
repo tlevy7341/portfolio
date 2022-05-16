@@ -1,47 +1,53 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Particles from "react-tsparticles";
 import "../App.css";
 import ParticlesConfig from "../utils/ParticlesConfig";
 
-const Hero = ({ myRefs }) => {
-  const [aboutRef, skillsRef, projectsRef] = myRefs;
-  const executeScroll = (ref) =>
-    ref.current.scrollIntoView({ behavior: "smooth" });
-
+const Hero = () => {
   return (
     <>
       <Particles canvasClassName="particles_canvas" options={ParticlesConfig} />
       <div
         id="hero"
-        className="bg-darkbg flex flex-col justify-center items-center text-white w-screen h-screen"
+        className="flex flex-col items-center justify-center w-screen h-screen text-white bg-darkbg"
       >
-        <p className="font-bold font-roboto text-2xl sm:text-6xl z-10">
+        <p className="z-10 text-2xl font-bold font-worksans sm:text-6xl">
           Hi, I'm <span className="text-sky-600">Tyrail.</span>
         </p>
-        <p className="font-bold font-roboto text-2xl sm:text-6xl z-10">
+        <p className="z-10 text-2xl font-bold font-worksans sm:text-6xl">
           I'm a Front-End Developer.
         </p>
-        <div className="flex gap-4 items-center">
-          <button
-            onClick={() => executeScroll(skillsRef)}
-            className="underline font-semibold text-sm sm:text-xl hover:text-sky-600 z-10"
+        <div className="flex items-center gap-4">
+          <Link
+            to="skills_container"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600"
           >
             Skills
-          </button>
+          </Link>
           <span>&#8226;</span>
-          <button
-            onClick={() => executeScroll(projectsRef)}
-            className="underline font-semibold text-sm sm:text-xl hover:text-sky-600 z-10"
+          <Link
+            to="projects_container"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600"
           >
             Projects
-          </button>
+          </Link>
           <span>&#8226;</span>
-          <button
-            onClick={() => executeScroll(aboutRef)}
-            className="underline font-semibold text-sm sm:text-xl hover:text-sky-600 z-10"
+          <Link
+            to="about_container"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600"
           >
             About
-          </button>
+          </Link>
         </div>
       </div>
     </>

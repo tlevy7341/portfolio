@@ -1,17 +1,23 @@
-import React from "react";
-import projects from "../utils/ProjectList";
+import React, { useEffect, useState } from "react";
+import useContentful from "../utils/useContentful";
 import ProjectRow from "./ProjectRow";
 
-const Projects = ({myRef}) => {
+const Projects = () => {
+  const { getProjects } = useContentful();
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    getProjects().then((projects) => setProjects(projects));
+  }, []);
   return (
-    <div ref={myRef} className="bg-darkbg pb-10 text-white">
+    <div id="projects_container" className="pb-10 text-white bg-darkbg">
       <div className="container mx-auto">
-        <h2 className="uppercase text-center mb-10 font-roboto font-bold text-4xl">
+        <h2 className="mb-10 text-2xl font-bold text-center lg:text-5xl font-worksans">
           Projects
         </h2>
-        {projects.map((project) => {
-
-          return <ProjectRow key={project.title} project={project} />;
+        {projects.map((project, index) => {
+          return (
+            <ProjectRow key={project.title} project={project} index={index} />
+          );
         })}
       </div>
     </div>
