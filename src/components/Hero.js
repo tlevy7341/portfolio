@@ -24,7 +24,7 @@ const Hero = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600"
+            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600 hover:cursor-pointer"
           >
             Skills
           </Link>
@@ -34,7 +34,7 @@ const Hero = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600"
+            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600 hover:cursor-pointer"
           >
             Projects
           </Link>
@@ -44,7 +44,7 @@ const Hero = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600"
+            className="z-10 text-sm font-semibold underline sm:text-xl hover:text-sky-600 hover:cursor-pointer"
           >
             About
           </Link>
