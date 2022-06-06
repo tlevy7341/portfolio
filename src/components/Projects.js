@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div id="projects_container" className="pb-10 text-white bg-darkbg">
       <div className="container mx-auto">
-        <h2 className="mb-10 text-2xl font-bold text-center lg:text-5xl font-worksans">
+        <h2 className="py-10 mb-10 text-2xl font-bold text-center lg:text-5xl font-worksans">
           Projects
         </h2>
         {projects.map((project, index) => {
