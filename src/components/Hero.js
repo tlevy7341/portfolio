@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import Particles from "react-tsparticles";
 import "../App.css";
@@ -15,8 +14,8 @@ const Hero = () => {
         <p className="z-10 text-2xl font-bold font-worksans sm:text-6xl">
           Hi, I'm <span className="text-sky-600">Tyrail.</span>
         </p>
-        <p className="z-10 text-2xl font-bold font-worksans sm:text-6xl">
-          I'm a Front-End Developer.
+        <p className="z-10 text-2xl pt-1 sm:pt-5 font-bold font-worksans sm:text-6xl">
+          I'm a Full Stack Developer.
         </p>
         <div className="flex items-center gap-4">
           <Link
