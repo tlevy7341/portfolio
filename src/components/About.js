@@ -1,5 +1,4 @@
-import React from "react";
-import Pdf from "../img/Leverett-Resume.pdf";
+import Pdf from "../resume/Tyrail_Leverett_Resume.pdf";
 
 const About = () => {
   return (
